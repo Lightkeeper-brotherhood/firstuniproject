@@ -7,6 +7,7 @@
 
 # Do not ignore current project's `.uproject`.
 !/*.uproject
+!/Content/map_khorasgon/**
 
 # Do not ignore source, config and plugins dirs.
 !/Source/**
@@ -15,7 +16,9 @@
 
 # Only allow .uasset and .umap files from /Content dir.
 # They're tracked by git-lfs, don't forget to track other
-# files if adding them here.
+# files if adding them here. map_khorasgon
+!/Content/**/*.uasset
+!/Content/**/*.umap
 
 
 # Allow any files from /RawContent dir.
